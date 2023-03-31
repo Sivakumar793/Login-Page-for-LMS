@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login Page for LMS</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<div class = "main-screen">
+		<div class = "left">
+			<section class = "copy">
+				<h1><img src = "LMS-logo.png" width="55%" height="50%" id="img_logo"></h1>
+				<div id="description">
+				<h1>Platform for Better Leaning</h1>
+				<h1>&</h1>
+				<h1>Better Career</h1>
+				</div>
+			</section>
+		</div>
+		<div class = "right">
+			<div class="form">
+			<section class = "copy">
+				<h1><b>LOGIN</b></h1>
+			</section>
+			<div class = "input-container-name">
+				<lable>Email/Username</lable><br>
+				<input id="name1" type="text" name="email" placeholder="Enter Email/UserName" maxlength="50">
+			</div>
+			<div class="input-container-password">
+				<label>Password</label><br>
+				<input id="password1" type="password" name="password" placeholder="Enter Password">
+				<input type="checkbox" onclick="ViewFunction()">Show Password
+			</div>
+
+			<div class="input-container-button">
+				<button onclick="validated()" type="submit">LOGIN</button>
+			</div>
+		</div>
+		</div>
+		<div id="footer">
+			
+			<footer><a href="https://sapient.training/terms-of-use/"><strong>Terms of Service</strong></a> and <a href="https://www.sapient.com/privacy-policy"><strong>Privacy Policy</strong></a>
+			</footer>
+		</div>
+	</div>	
+
+	<script src="valid.js"></script>
+</body>
+</html>
